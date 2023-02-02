@@ -1,0 +1,47 @@
+-- IDF_TARGET not set, using default target: esp32
+-- Found Git: /usr/bin/git (found version "2.25.1") 
+-- The C compiler identification is GNU 11.2.0
+-- The CXX compiler identification is GNU 11.2.0
+-- The ASM compiler identification is GNU
+-- Found assembler: /home/training/.espressif/tools/xtensa-esp32-elf/esp-2022r1-11.2.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc
+-- Check for working C compiler: /home/training/.espressif/tools/xtensa-esp32-elf/esp-2022r1-11.2.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc
+-- Check for working C compiler: /home/training/.espressif/tools/xtensa-esp32-elf/esp-2022r1-11.2.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc -- works
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Check for working CXX compiler: /home/training/.espressif/tools/xtensa-esp32-elf/esp-2022r1-11.2.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-g++
+-- Check for working CXX compiler: /home/training/.espressif/tools/xtensa-esp32-elf/esp-2022r1-11.2.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-g++ -- works
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Project is not inside a git repository, or git repository has no commits; will not use 'git describe' to determine PROJECT_VER.
+-- Building ESP-IDF components for target esp32
+-- Project sdkconfig file /home/training/RTOS_sheran_14/no1/sdkconfig
+-- Looking for sys/types.h
+-- Looking for sys/types.h - found
+-- Looking for stdint.h
+-- Looking for stdint.h - found
+-- Looking for stddef.h
+-- Looking for stddef.h - found
+-- Check size of time_t
+-- Check size of time_t - done
+-- Found Python3: /home/training/.espressif/python_env/idf5.1_py3.8_env/bin/python (found version "3.8.10") found components: Interpreter 
+-- Performing Test C_COMPILER_SUPPORTS_WFORMAT_SIGNEDNESS
+-- Performing Test C_COMPILER_SUPPORTS_WFORMAT_SIGNEDNESS - Success
+-- App "suspend" version: 1
+-- Adding linker script /home/training/RTOS_sheran_14/no1/build/esp-idf/esp_system/ld/memory.ld
+-- Adding linker script /home/training/esp/esp-idf/components/esp_system/ld/esp32/sections.ld.in
+-- Adding linker script /home/training/esp/esp-idf/components/esp_rom/esp32/ld/esp32.rom.ld
+-- Adding linker script /home/training/esp/esp-idf/components/esp_rom/esp32/ld/esp32.rom.api.ld
+-- Adding linker script /home/training/esp/esp-idf/components/esp_rom/esp32/ld/esp32.rom.libgcc.ld
+-- Adding linker script /home/training/esp/esp-idf/components/esp_rom/esp32/ld/esp32.rom.newlib-data.ld
+-- Adding linker script /home/training/esp/esp-idf/components/esp_rom/esp32/ld/esp32.rom.syscalls.ld
+-- Adding linker script /home/training/esp/esp-idf/components/esp_rom/esp32/ld/esp32.rom.newlib-funcs.ld
+-- Adding linker script /home/training/esp/esp-idf/components/soc/esp32/ld/esp32.peripherals.ld
+-- Components: app_trace app_update bootloader bootloader_support bt cmock console cxx driver efuse esp-tls esp_adc esp_app_format esp_common esp_eth esp_event esp_gdbstub esp_hid esp_http_client esp_http_server esp_https_ota esp_https_server esp_hw_support esp_lcd esp_local_ctrl esp_netif esp_netif_stack esp_partition esp_phy esp_pm esp_psram esp_ringbuf esp_rom esp_system esp_timer esp_wifi espcoredump esptool_py fatfs freertos hal heap http_parser idf_test ieee802154 json log lwip main mbedtls mqtt newlib nvs_flash openthread partition_table perfmon protobuf-c protocomm pthread sdmmc soc spi_flash spiffs tcp_transport ulp unity usb vfs wear_levelling wifi_provisioning wpa_supplicant xtensa
+-- Component paths: /home/training/esp/esp-idf/components/app_trace /home/training/esp/esp-idf/components/app_update /home/training/esp/esp-idf/components/bootloader /home/training/esp/esp-idf/components/bootloader_support /home/training/esp/esp-idf/components/bt /home/training/esp/esp-idf/components/cmock /home/training/esp/esp-idf/components/console /home/training/esp/esp-idf/components/cxx /home/training/esp/esp-idf/components/driver /home/training/esp/esp-idf/components/efuse /home/training/esp/esp-idf/components/esp-tls /home/training/esp/esp-idf/components/esp_adc /home/training/esp/esp-idf/components/esp_app_format /home/training/esp/esp-idf/components/esp_common /home/training/esp/esp-idf/components/esp_eth /home/training/esp/esp-idf/components/esp_event /home/training/esp/esp-idf/components/esp_gdbstub /home/training/esp/esp-idf/components/esp_hid /home/training/esp/esp-idf/components/esp_http_client /home/training/esp/esp-idf/components/esp_http_server /home/training/esp/esp-idf/components/esp_https_ota /home/training/esp/esp-idf/components/esp_https_server /home/training/esp/esp-idf/components/esp_hw_support /home/training/esp/esp-idf/components/esp_lcd /home/training/esp/esp-idf/components/esp_local_ctrl /home/training/esp/esp-idf/components/esp_netif /home/training/esp/esp-idf/components/esp_netif_stack /home/training/esp/esp-idf/components/esp_partition /home/training/esp/esp-idf/components/esp_phy /home/training/esp/esp-idf/components/esp_pm /home/training/esp/esp-idf/components/esp_psram /home/training/esp/esp-idf/components/esp_ringbuf /home/training/esp/esp-idf/components/esp_rom /home/training/esp/esp-idf/components/esp_system /home/training/esp/esp-idf/components/esp_timer /home/training/esp/esp-idf/components/esp_wifi /home/training/esp/esp-idf/components/espcoredump /home/training/esp/esp-idf/components/esptool_py /home/training/esp/esp-idf/components/fatfs /home/training/esp/esp-idf/components/freertos /home/training/esp/esp-idf/components/hal /home/training/esp/esp-idf/components/heap /home/training/esp/esp-idf/components/http_parser /home/training/esp/esp-idf/components/idf_test /home/training/esp/esp-idf/components/ieee802154 /home/training/esp/esp-idf/components/json /home/training/esp/esp-idf/components/log /home/training/esp/esp-idf/components/lwip /home/training/RTOS_sheran_14/no1/main /home/training/esp/esp-idf/components/mbedtls /home/training/esp/esp-idf/components/mqtt /home/training/esp/esp-idf/components/newlib /home/training/esp/esp-idf/components/nvs_flash /home/training/esp/esp-idf/components/openthread /home/training/esp/esp-idf/components/partition_table /home/training/esp/esp-idf/components/perfmon /home/training/esp/esp-idf/components/protobuf-c /home/training/esp/esp-idf/components/protocomm /home/training/esp/esp-idf/components/pthread /home/training/esp/esp-idf/components/sdmmc /home/training/esp/esp-idf/components/soc /home/training/esp/esp-idf/components/spi_flash /home/training/esp/esp-idf/components/spiffs /home/training/esp/esp-idf/components/tcp_transport /home/training/esp/esp-idf/components/ulp /home/training/esp/esp-idf/components/unity /home/training/esp/esp-idf/components/usb /home/training/esp/esp-idf/components/vfs /home/training/esp/esp-idf/components/wear_levelling /home/training/esp/esp-idf/components/wifi_provisioning /home/training/esp/esp-idf/components/wpa_supplicant /home/training/esp/esp-idf/components/xtensa
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/training/RTOS_sheran_14/no1/build

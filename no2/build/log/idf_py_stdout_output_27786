@@ -1,0 +1,5 @@
+[1/4] cd /home/training/RTOS_sheran_14/no2/build/esp-idf/esptool_py && /home/training/.espressif/python_env/idf5.1_py3.8_env/bin/python /home/training/esp/esp-idf/components/partition_table/check_sizes.py --offset 0x8000 partition --type app /home/training/RTOS_sheran_14/no2/build/partition_table/partition-table.bin /home/training/RTOS_sheran_14/no2/build/suspend.bin
+suspend.bin binary size 0x28f70 bytes. Smallest app partition is 0x100000 bytes. 0xd7090 bytes (84%) free.
+[2/4] Performing build step for 'bootloader'
+[1/1] cd /home/training/RTOS_sheran_14/no2/build/bootloader/esp-idf/esptool_py && /home/training/.espressif/python_env/idf5.1_py3.8_env/bin/python /home/training/esp/esp-idf/components/partition_table/check_sizes.py --offset 0x8000 bootloader 0x1000 /home/training/RTOS_sheran_14/no2/build/bootloader/bootloader.bin
+Bootloader binary size 0x6720 bytes. 0x8e0 bytes (8%) free.
